@@ -1,0 +1,12 @@
+# Служебное Python
+__pycache__/
+*.py[cod]
+
+# Локальные настройки рабочей среды
+.claude/settings.local.json
+.streamlit/
+
+# Служебное macOS и Windows
+.DS_Store
+Thumbs.db
+desktop.ini
