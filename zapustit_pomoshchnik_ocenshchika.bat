@@ -30,7 +30,7 @@ if errorlevel 1 (
     echo.
     echo       Установите его с сайта python.org, и при установке
     echo       обязательно поставьте галочку "Add Python to PATH".
-    echo       Потом запустите этот значок ещё раз.
+    echo       Потом запустите этот значок еще раз.
     echo.
     pause
     exit /b 1
@@ -40,13 +40,13 @@ rem --- Есть ли нужные библиотеки -------------------------------------------
 python -c "import streamlit, curl_cffi, openpyxl, docx, plotly" >nul 2>&1
 if errorlevel 1 (
     echo   Первый запуск: доустанавливаю нужные библиотеки.
-    echo   Это займёт несколько минут. Дальше запуск будет быстрым.
+    echo   Это займет несколько минут. Дальше запуск будет быстрым.
     echo.
     python -m pip install --disable-pip-version-check streamlit curl_cffi openpyxl python-docx plotly Pillow
     if errorlevel 1 (
         echo.
         echo   [!] Библиотеки установить не удалось.
-        echo       Проверьте интернет и попробуйте ещё раз.
+        echo       Проверьте интернет и попробуйте еще раз.
         echo.
         pause
         exit /b 1
@@ -56,7 +56,7 @@ if errorlevel 1 (
 
 rem --- Убираем разовый вопрос Streamlit про электронную почту ---------------
 rem Без этого файла программа при первом запуске спрашивает адрес почты
-rem и ждёт ответа в этом окне, а браузер так и не открывается.
+rem и ждет ответа в этом окне, а браузер так и не открывается.
 if not exist "%USERPROFILE%\.streamlit\credentials.toml" (
     if not exist "%USERPROFILE%\.streamlit" mkdir "%USERPROFILE%\.streamlit"
     >"%USERPROFILE%\.streamlit\credentials.toml" echo [general]

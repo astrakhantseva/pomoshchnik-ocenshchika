@@ -25,7 +25,7 @@ if ! command -v python3 >/dev/null 2>&1; then
     echo "  [!] На этом компьютере не найден Python."
     echo
     echo "      Установите его с сайта python.org, а после установки"
-    echo "      запустите этот значок ещё раз."
+    echo "      запустите этот значок еще раз."
     echo
     read -n 1 -s -r -p "  Нажмите любую клавишу, чтобы закрыть окно."
     exit 1
@@ -34,13 +34,13 @@ fi
 # --- Есть ли нужные библиотеки -------------------------------------------
 if ! python3 -c "import streamlit, curl_cffi, openpyxl, docx, plotly" >/dev/null 2>&1; then
     echo "  Первый запуск: доустанавливаю нужные библиотеки."
-    echo "  Это займёт несколько минут. Дальше запуск будет быстрым."
+    echo "  Это займет несколько минут. Дальше запуск будет быстрым."
     echo
     if ! python3 -m pip install --disable-pip-version-check \
             streamlit curl_cffi openpyxl python-docx plotly Pillow; then
         echo
         echo "  [!] Библиотеки установить не удалось."
-        echo "      Проверьте интернет и попробуйте ещё раз."
+        echo "      Проверьте интернет и попробуйте еще раз."
         echo
         read -n 1 -s -r -p "  Нажмите любую клавишу, чтобы закрыть окно."
         exit 1
@@ -50,7 +50,7 @@ fi
 
 # --- Убираем разовый вопрос Streamlit про электронную почту ---------------
 # Без этого файла программа при первом запуске спрашивает адрес почты
-# и ждёт ответа в этом окне, а браузер так и не открывается.
+# и ждет ответа в этом окне, а браузер так и не открывается.
 if [ ! -f "$HOME/.streamlit/credentials.toml" ]; then
     mkdir -p "$HOME/.streamlit"
     printf '[general]\nemail = ""\n' > "$HOME/.streamlit/credentials.toml"
