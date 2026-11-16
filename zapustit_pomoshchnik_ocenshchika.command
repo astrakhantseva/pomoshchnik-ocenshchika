@@ -32,12 +32,12 @@ if ! command -v python3 >/dev/null 2>&1; then
 fi
 
 # --- Есть ли нужные библиотеки -------------------------------------------
-if ! python3 -c "import streamlit, curl_cffi, openpyxl, docx" >/dev/null 2>&1; then
+if ! python3 -c "import streamlit, curl_cffi, openpyxl, docx, plotly" >/dev/null 2>&1; then
     echo "  Первый запуск: доустанавливаю нужные библиотеки."
     echo "  Это займёт несколько минут. Дальше запуск будет быстрым."
     echo
     if ! python3 -m pip install --disable-pip-version-check \
-            streamlit curl_cffi openpyxl python-docx Pillow; then
+            streamlit curl_cffi openpyxl python-docx plotly Pillow; then
         echo
         echo "  [!] Библиотеки установить не удалось."
         echo "      Проверьте интернет и попробуйте ещё раз."

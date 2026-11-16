@@ -37,12 +37,12 @@ if errorlevel 1 (
 )
 
 rem --- Есть ли нужные библиотеки -------------------------------------------
-python -c "import streamlit, curl_cffi, openpyxl, docx" >nul 2>&1
+python -c "import streamlit, curl_cffi, openpyxl, docx, plotly" >nul 2>&1
 if errorlevel 1 (
     echo   Первый запуск: доустанавливаю нужные библиотеки.
     echo   Это займёт несколько минут. Дальше запуск будет быстрым.
     echo.
-    python -m pip install --disable-pip-version-check streamlit curl_cffi openpyxl python-docx Pillow
+    python -m pip install --disable-pip-version-check streamlit curl_cffi openpyxl python-docx plotly Pillow
     if errorlevel 1 (
         echo.
         echo   [!] Библиотеки установить не удалось.

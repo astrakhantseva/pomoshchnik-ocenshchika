@@ -1,0 +1,214 @@
+{
+  "search": {
+    "offers": {
+      "entities": [
+        {
+          "offerId": "uchebnoe-1",
+          "url": "https://example.com/uchebnoe-obyavlenie-1",
+          "price": {
+            "value": 6400000,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 64.0,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, улица Учебная, 14",
+            "point": {
+              "latitude": 53.207,
+              "longitude": 50.1775,
+              "precision": "EXACT"
+            }
+          },
+          "floorsOffered": [
+            1
+          ],
+          "floorsTotal": 5,
+          "description": "Учебное объявление 1. Офисное помещение 64,0 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        },
+        {
+          "offerId": "uchebnoe-2",
+          "url": "https://example.com/uchebnoe-obyavlenie-2",
+          "price": {
+            "value": 5557500,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 58.5,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, улица Учебная, 27",
+            "point": {
+              "latitude": 53.1955,
+              "longitude": 50.1655,
+              "precision": "EXACT"
+            }
+          },
+          "floorsOffered": [
+            2
+          ],
+          "floorsTotal": 9,
+          "description": "Учебное объявление 2. Офисное помещение 58,5 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        },
+        {
+          "offerId": "uchebnoe-3",
+          "url": "https://example.com/uchebnoe-obyavlenie-3",
+          "price": {
+            "value": 7652000,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 70.2,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, Учебный проезд, 3",
+            "point": {
+              "latitude": 53.2068,
+              "longitude": 50.1612,
+              "precision": "EXACT"
+            }
+          },
+          "floorsOffered": [
+            1
+          ],
+          "floorsTotal": 3,
+          "description": "Учебное объявление 3. Офисное помещение 70,2 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        },
+        {
+          "offerId": "uchebnoe-4",
+          "url": "https://example.com/uchebnoe-obyavlenie-4",
+          "price": {
+            "value": 4785000,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 55.0,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, улица Тренировочная, 8",
+            "point": {
+              "latitude": 53.1938,
+              "longitude": 50.181,
+              "precision": "EXACT"
+            }
+          },
+          "floorsOffered": [
+            3
+          ],
+          "floorsTotal": 5,
+          "description": "Учебное объявление 4. Офисное помещение 55,0 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        },
+        {
+          "offerId": "uchebnoe-5",
+          "url": "https://example.com/uchebnoe-obyavlenie-5",
+          "price": {
+            "value": 7865000,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 67.8,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, улица Образцовая, 41",
+            "point": {
+              "latitude": 53.2101,
+              "longitude": 50.1879,
+              "precision": "EXACT"
+            }
+          },
+          "floorsOffered": [
+            1
+          ],
+          "floorsTotal": 10,
+          "description": "Учебное объявление 5. Офисное помещение 67,8 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        },
+        {
+          "offerId": "uchebnoe-6",
+          "url": "https://example.com/uchebnoe-obyavlenie-6",
+          "price": {
+            "value": 5640000,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 61.3,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, проспект Пробный, 112",
+            "point": {
+              "latitude": 53.1902,
+              "longitude": 50.1597,
+              "precision": "EXACT"
+            }
+          },
+          "floorsOffered": [
+            2
+          ],
+          "floorsTotal": 16,
+          "description": "Учебное объявление 6. Офисное помещение 61,3 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        },
+        {
+          "offerId": "uchebnoe-7",
+          "url": "https://example.com/uchebnoe-obyavlenie-7",
+          "price": {
+            "value": 6254000,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 59.0,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, улица Примерная, 6",
+            "point": {
+              "latitude": 53.2047,
+              "longitude": 50.1953,
+              "precision": "EXACT"
+            }
+          },
+          "floorsOffered": [
+            1
+          ],
+          "floorsTotal": 4,
+          "description": "Учебное объявление 7. Офисное помещение 59,0 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        },
+        {
+          "offerId": "uchebnoe-8",
+          "url": "https://example.com/uchebnoe-obyavlenie-8",
+          "price": {
+            "value": 6032500,
+            "currency": "RUR"
+          },
+          "area": {
+            "value": 63.5,
+            "unit": "SQUARE_METER"
+          },
+          "location": {
+            "geocoderAddress": "Россия, Самара, улица Условная, 19"
+          },
+          "floorsOffered": [
+            2
+          ],
+          "floorsTotal": 5,
+          "description": "Учебное объявление 8. Офисное помещение 63,5 кв. м, отдельный вход, отделка в рабочем состоянии. Сведения вымышлены.",
+          "appLargeImages": []
+        }
+      ],
+      "pager": {
+        "totalPages": 1
+      }
+    }
+  }
+}

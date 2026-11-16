@@ -1,0 +1,59 @@
+{
+  "data": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": 1,
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                5585097.0,
+                7020154.73
+              ],
+              [
+                5585145.98,
+                7020154.73
+              ],
+              [
+                5585145.98,
+                7020188.18
+              ],
+              [
+                5585097.0,
+                7020188.18
+              ],
+              [
+                5585097.0,
+                7020154.73
+              ]
+            ]
+          ],
+          "crs": {
+            "type": "name",
+            "properties": {
+              "name": "EPSG:3857"
+            }
+          }
+        },
+        "properties": {
+          "category": 36369,
+          "categoryName": "Помещения",
+          "options": {
+            "cad_number": "63:00:000000:0001",
+            "readable_address": "Самарская область, г. Самара, ул. Учебная, д. 5, пом. 3",
+            "purpose": "Нежилое",
+            "area": 62.4,
+            "cost_value": 4128000.0,
+            "floor": [
+              "2"
+            ],
+            "status": "Учтенный"
+          }
+        }
+      }
+    ]
+  }
+}
